@@ -46,5 +46,10 @@
 			<artifactId>http</artifactId>
 			<version>2.34</version>
 		</dependency>
+		<dependency>
+            <groupId>net.code-story</groupId>
+            <artifactId>fluent-rest-test</artifactId>
+            <version>1.1</version>
+        </dependency>
 	</dependencies>
 </project>
