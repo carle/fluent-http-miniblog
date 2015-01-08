@@ -1,6 +1,7 @@
 # fluent-http-miniblog
 
-Sample project with [fluent-http](https://github.com/CodeStory/fluent-http)
+Ce projet permet de donner un exemple d'utilisation du framework REST  [fluent-http](https://github.com/CodeStory/fluent-http) en implémentant 
+un mini-blog illustrant les éléments principaux de fluent-http.
 
 # Étudiants
 
