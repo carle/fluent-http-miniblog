@@ -16,8 +16,8 @@ Sample project with [fluent-http](https://github.com/CodeStory/fluent-http)
 
         <name>votre-nom-de-projet</name>
 
-- Ouvrir éclipse en lui indiquant d'utiliser le workspace /tmp/$USER/workspace
-- Installer le plugin maven m2e depuis http://download.eclipse.org/releases/indigo/
+- Ouvrir éclipse en lui indiquant d'utiliser le workspace ```/tmp/$USER/workspace```
+- Installer le plugin maven ```m2e``` depuis http://download.eclipse.org/releases/indigo/
 - puis "import existing maven project"
 
 # Besoin
