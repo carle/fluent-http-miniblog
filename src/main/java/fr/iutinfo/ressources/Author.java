@@ -46,7 +46,6 @@ public class Author {
     	this.lastname = lastname;
     }
     
-    @Get("/author?id=:id") // pour gérer les get générer par un formulaire ...
 	@Get("/author/:id")
 	public String getAuthor(int id) {
 		System.out.println("Searching author with id "+id+" within "+authors);
@@ -58,7 +57,7 @@ public class Author {
 
 	// Création d'un nouvelle ressource de type Author automatiquement par 
 	// utilisation automatique des setXXX d'Author
-	@Post("/create/author")
+	@Post("/author/")
 	public Payload create(Author author) {
 		System.out.println("Creating new author => "+author);		
 		authors.put(++cpt, author);
