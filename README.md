@@ -5,7 +5,7 @@ un mini-blog illustrant les éléments principaux de fluent-http.
 
 # Étudiants
 
-- Faire un fork du projet, le clonner en locale :
+- Faire un fork du projet, le cloner en local:
     
         mkdir -p /tmp/$USER/workspace
         cd /tmp/$USER/workspace
@@ -23,7 +23,7 @@ un mini-blog illustrant les éléments principaux de fluent-http.
 
 # Besoin
 
-- exemple de put/get/post/delete sur article
+- exemple de ```put/get/post/delete``` sur article
 - inscription des auteurs
 - authentification 
 - 1 article == 1 auteur
