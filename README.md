@@ -6,15 +6,15 @@ Sample project with [fluent-http](https://github.com/CodeStory/fluent-http)
 
 - Faire un fork du projet, le clonner en locale :
     
-    mkdir -p /tmp/$USER/workspace
-    cd /tmp/$USER/workspace
-    export http_proxy=http://cache.univ-lille1.fr
-    export https_proxy=http://cache.univ-lille1.fr
-    git clone https://github.com/...
+        mkdir -p /tmp/$USER/workspace
+        cd /tmp/$USER/workspace
+        export http_proxy=http://cache.univ-lille1.fr
+        export https_proxy=http://cache.univ-lille1.fr
+        git clone https://github.com/...
     
 - Modifier le nom du projet dans le fichier pom.xml
 
-    <name>votre-nom-de-projet</name>
+        <name>votre-nom-de-projet</name>
 
 - Ouvrir éclipse en lui indiquant d'utiliser le workspace /tmp/$USER/workspace
 - Installer le plugin maven m2e depuis http://download.eclipse.org/releases/indigo/
