@@ -1,0 +1,35 @@
+---
+layout: default
+title: Hello World
+---
+<div>
+<h1>Bienvenue sur le mini-blog !</h1>
+
+<h2>Création d'un auteur</h2>
+<form action="/create/author" method="post">
+  Identifiant de l'auteur: <input type="text" name="authorid"><br>
+  Contenu:                 <input type="text" name="content"><br>
+  <input type="submit" value="Valider">
+</form>
+
+<h2>Consulter un auteur</h2>
+<a href="/author/0">Consulter l'auteur 0</a>
+<form action="/author" method="get">
+  Identifiant: <input type="text" name="id">
+  <input type="submit" value="Valider">
+</form>
+
+<h2>Création d'un article</h2>
+<form action="/create/article" method="post">
+  Identifiant de l'auteur: <input type="text" name="authorid"><br>
+  Contenu: <input type="text" name="content"><br>
+  <input type="submit" value="Valider">
+</form>
+
+<h2>Consulter un article</h2>
+<form action="/article" method="get">
+  Identifiant: <input type="text" name="id">
+  <input type="submit" value="Valider">
+</form>
+
+</div>
