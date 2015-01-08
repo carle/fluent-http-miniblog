@@ -53,18 +53,11 @@
 			<version>1.1</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+<!--		<dependency>
 			<groupId>net.code-story</groupId>
 			<artifactId>http</artifactId>
 			<version>2.34</version>
-		</dependency>
-<<<<<<< HEAD
-		<dependency>
-			<groupId>net.code-story</groupId>
-			<artifactId>fluent-rest-test</artifactId>
-			<version>1.1</version>
-		</dependency>
-=======
->>>>>>> 630df88ef8e852a740a4c44d5b3ea12af261e899
+		</dependency>   -->
+
 	</dependencies>
 </project>
