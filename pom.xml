@@ -25,6 +25,18 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>dependency</classpathPrefix>
+							<mainClass>net.codestory.http.WebServer</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -41,9 +53,9 @@
 			<version>2.34</version>
 		</dependency>
 		<dependency>
-            <groupId>net.code-story</groupId>
-            <artifactId>fluent-rest-test</artifactId>
-            <version>1.1</version>
-        </dependency>
+			<groupId>net.code-story</groupId>
+			<artifactId>fluent-rest-test</artifactId>
+			<version>1.1</version>
+		</dependency>
 	</dependencies>
 </project>
