@@ -24,7 +24,7 @@ un mini-blog illustrant les éléments principaux de fluent-http.
 # Besoin
 
 - exemple de put/get/post/delete sur article
-- inscription des auteurs 
+- inscription des auteurs
 - authentification 
 - 1 article == 1 auteur
 - 1 page static + JS
